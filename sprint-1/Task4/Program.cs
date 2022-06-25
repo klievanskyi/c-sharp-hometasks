@@ -42,13 +42,12 @@ namespace Task4
                     if(disposing)
                     {
                         Console.WriteLine("Disposing by developer");
-                        Close();
                     }
                     else
                     {
                         Console.WriteLine("Disposing by GC");
-                        Close();
                     }
+                    Close();
 
                     disposed = true;
                 }
