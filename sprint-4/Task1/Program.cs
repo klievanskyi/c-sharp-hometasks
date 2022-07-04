@@ -50,31 +50,25 @@ namespace Task1
 
     interface IFlyable
     {
+        public int MaxHeight => 0;
         public void Fly()
         {
             Console.WriteLine($"I can fly at {MaxHeight} meters height!");
-        }
-        public int MaxHeight
-        {
-            get { return 0; }
         }
     }
 
     interface IRunnable
     {
+        public int MaxSpeed => 0;
         public void Run()
         {
             Console.WriteLine($"I can run up to {MaxSpeed} kilometers per hour!");
-        }
-
-        public int MaxSpeed
-        {
-            get { return 0; }
         }
     }
 
     interface IAnimal
     {
+        public int LifeDuration => 0;
         public void Voice()
         {
             Console.WriteLine("No voice!");
@@ -83,10 +77,6 @@ namespace Task1
         public void ShowInfo()
         {
             Console.WriteLine($"I am a {GetType()} and I live approximately {LifeDuration} years.");
-        }
-        public int LifeDuration
-        {
-            get { return 0; }
         }
     }
 
