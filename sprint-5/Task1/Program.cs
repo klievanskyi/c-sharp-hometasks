@@ -1,4 +1,13 @@
-﻿namespace Task1
+﻿//In class MyProgram :
+//  1) Create a method that should take a collection of arguments Position(List<int> numbers) in which find and Console.WriteLine all positions of element 5 in this collection
+
+//  2) Create a method that should take a collection of arguments Remove(List<int> numbers) in which remove from collection all elements, which are greater than 20. and print collection
+
+//  3) Create a method that should take a collection of arguments Insert(List<int> numbers)  in which insert elements -5,-6,-7 in positions 3, 6, 8 and print collection
+
+//  4) Create a method that should take a collection of arguments Sort(List<int> numbers) in which sorting collection and print collection
+
+namespace Task1
 {
     class Program
     {
